@@ -1,0 +1,433 @@
+//Designer by Cristian Quintero[cristianqr22@gmail.com]
+
+html, body { font-family: 'Open Sans'; text-transform: uppercase; color: #8e8e8e;	 }
+p {
+	font-size: 11px;
+}
+
+.mtop3 {
+	margin-top: 3px;
+}
+
+.mtop10 {
+	margin-top: 10px;
+}
+
+.mtop20 {
+	margin-top: 20px;
+}
+
+.mtop30 {
+	margin-top: 30px;
+}
+
+.mtop40 {
+	margin-top: 40px;
+}
+
+.mtop50 {
+	margin-top: 50px;
+}
+
+
+
+
+
+//Header
+
+.bg-header {
+	overflow: hidden;
+	position: relative;
+	height: 596px;
+
+
+}
+
+.col-logo{
+	float: left;
+	width: 20%;
+	background: #f5f5f5;
+}
+
+.col-slide {
+	float: left;
+	width: 60%;
+	height: 100%;
+	position: relative;
+	background: url('../../img/slider-home.jpg') center top;
+	background-size: cover;
+	img {
+		width: 100%;
+	}
+}
+
+.dots {
+	position: absolute;
+	bottom: 28px;
+	right: 10px;
+	#active-dot {
+		background: @green-second;
+		color: @green-second;
+		font-size: 0px;		
+	}
+	ul {
+		margin: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			a {
+				width: 8px;
+				height: 8px;
+				background: white;
+				display: block;
+				border-radius: 50%;
+				background: white;
+				font-size: 0px;
+				
+			}
+		}
+	}
+}
+
+.col-bonus {
+	float: left;
+	width: 20%;	
+}
+
+.bg-box-logo {
+	padding: 1em;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			text-align: center;
+			font-family: 'Open Sans';
+			font-size: 11px;
+			font-weight: bold;			
+			padding: 3px;
+			a {
+				color: #8e8e8e;
+				&:hover {
+					color: #333;
+				}
+			}
+
+
+
+		}
+	}
+}
+
+#active {
+	color: #333;
+}
+
+.box-check {
+	background: @green-contrast;
+	color: white;
+	padding: 2em 0em;
+	h3 {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.3em;
+		margin: 0;
+	}
+	input[type="date"] {
+		height: 26px;
+		color: #ccc;
+		width: 70%;
+	}
+	label {
+		font-size: 12px;
+		font-weight: lighter;
+		margin-top: 12px;
+	}
+	p {
+		font-size: 9px;
+		margin-top: 27px;
+		margin-bottom: 15px;
+	}
+	a {
+		margin-top: 9px;
+	}
+
+}
+
+.top-header {
+	position: absolute;
+	width: 80%;
+	height: 25px;
+	background: white;
+	top: 0;
+	right: 0;
+	text-align: right;
+	padding: 2px;
+	z-index: 9999999;
+	p {
+		display: inline-block;
+		font-size: 9px;
+		margin-right: 3px;
+		color: #8e8e8e;
+
+	}
+}
+
+.col-box-pack {
+	margin-top: 25px;
+	background: @green-primary;
+	text-align: center;
+	padding: 2em 3em;
+	color: white;	
+	h3 {
+		font-size: 18px;
+		font-weight: lighter;
+		color: white;
+		margin: 0;
+		letter-spacing: 0.3em;
+	}
+	h4 {
+		font-weight: bold;
+	}
+	span {
+		font-size: 22px;
+		margin-top: 10px;
+		margin-top: 22px;
+		display: block;
+		margin-bottom: 22px;		
+	}
+	p {
+		font-size: 11px;
+	}
+}
+
+.btn-green-dark {
+	background: @green-primary;
+	padding: .5em 1em;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.btn-green-medium{
+	background: @green-second;
+	padding: .5em 1em;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.col-timer {
+	background: @green-second;
+	text-align: center;
+	color: white;
+}
+
+.box-item {
+	padding: 2em 3em;
+	h3 {
+		font-size: 18px;
+		font-weight: lighter;
+		color: white;
+		margin: 0;
+		letter-spacing: 0.3em;	
+	}
+	p {
+		font-size: 11px;
+	}
+	img {
+		margin-top: 13px;
+		margin-bottom: 14px;
+	}	
+}
+
+.btn-right {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -26px;
+}
+
+
+.btn-left {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -26px;
+}
+
+//Sections 
+
+
+.welcome {
+	padding: 1em;
+	border-bottom: 1px solid #ccc;
+	h1 {
+		font-weight: lighter;
+		text-align: center;
+		font-size: 22px;
+		color: #666;
+		margin: 30px;
+		letter-spacing: 0.1em;
+	}
+	p {
+		text-align: center;
+		color: #666;
+		font-size: 11px;
+		font-weight: lighter;
+		margin: 25px;
+	}
+}
+
+
+.idl {
+	padding: 1em;
+	background: #f8f8f8;
+	h1 {
+		font-weight: lighter;
+		text-align: center;
+		font-size: 22px;
+		color: #666;
+		margin: 30px;
+		letter-spacing: 0.1em;
+	}
+	p {
+		text-align: center;
+		color: #666;
+		font-size: 11px;
+		font-weight: lighter;
+		margin: 25px;
+	}
+}
+
+.green-dark {
+	color: @green-second;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+
+
+//Footer
+
+footer {
+	background: @green-contrast;
+	color: white;
+	h3 {
+		font-size: 18px;
+		font-weight: lighter;
+		color: white;
+		margin-top: 20px;
+		letter-spacing: 0.1em;		
+	}
+	p {
+		color: #99AAA2;
+		margin-top: 25px;
+	}
+}
+
+.bloqueboton{
+	display: block;
+	text-align: center;
+}
+
+
+.footerA {
+	padding: 1em 5em 4em;
+	border-right: 1px solid #99AAA2;
+}
+
+.footerB {
+	padding: 1em 3em 4em;
+	input[type="text"] {
+		width: 100%;
+		padding: 5px;
+		color: #ccc;
+	}
+}
+
+
+.btn-social-facebook {
+	border-radius: 50%;
+	background: @color-face;
+	color: white;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	padding: 4px 6px;
+	box-shadow: inset 1px 1px 6px rgba(255,255,255, 0.2);
+	&:hover {
+		text-decoration: none;
+		color: white;
+		background: #222;
+	}	
+}
+
+.btn-social-twitter {
+	border-radius: 50%;
+	background: @color-twitter;
+	color: white;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	padding: 4px 6px;
+	box-shadow: inset 1px 1px 6px rgba(255,255,255, 0.2);
+	&:hover {
+		text-decoration: none;
+		color: white;
+		background: #222;
+	}	
+}
+
+.btn-social-google {
+	border-radius: 50%;
+	background: @color-google;
+	color: white;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	padding: 4px 6px;
+	box-shadow: inset 1px 1px 6px rgba(255,255,255, 0.2);
+	&:hover {
+		text-decoration: none;
+		color: white;
+		background: #222;
+	}	
+}
+
+.btn-social-youtube {
+	border-radius: 50%;
+	background: @color-youtube;
+	color: white;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	padding: 4px 6px;
+	box-shadow: inset 1px 1px 6px rgba(255,255,255, 0.2);
+	&:hover {
+		text-decoration: none;
+		color: white;
+		background: #222;
+	}	
+}
+
+.arrown-slide {
+	position: absolute;
+	top: 54px;
+	right: -10px;
+	transform: rotate(180deg);
+	span {
+		color: @green-primary;
+		font-size: 30px;
+
+	}
+}
